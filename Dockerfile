@@ -10,7 +10,7 @@ ARG group=jenkins
 ARG uid=1000
 ARG gid=1000
 
-# Jenkins is run with user `jenkins`, uid = 1000
+# Jenkins is run with user `jenkins`, uid = 1000 
 # If you bind mount a volume from the host or a data container,
 # ensure you use the same uid
 RUN addgroup -g ${gid} ${group} \
